@@ -6,7 +6,6 @@
 - [Authors](#authors)
 - [Abstract](#abstract)
 - [Proposed Work](#proposed-work)
-  - [DDoS Attack Detection](#ddos-attack-detection)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -34,7 +33,7 @@ The DDoS attack detection algorithm improves the security of autonomous vehicles
 
 ## Contributing
 
-We welcome contributions from other students and developers to improve and enhance this website. If you'd like to contribute, please follow these steps:
+We welcome contributions from other students and developers to improve and enhance this project. If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 
@@ -58,4 +57,3 @@ If you have any questions or suggestions, feel free to contact us:
 - Mugundh J B: [LinkedIn](https://linkedin.com/in/mugundhjb)
 - Kiran Kumar M: [LinkedIn](https://linkedin.com/in/kiran-kumar-81a4a1231)
 
-Thank you for visiting the School of Architecture and Planning website! We hope you find it informative and engaging.
