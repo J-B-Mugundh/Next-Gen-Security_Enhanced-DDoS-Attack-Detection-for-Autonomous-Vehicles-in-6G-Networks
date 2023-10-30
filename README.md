@@ -28,8 +28,9 @@ Autonomous vehicles have gained prominence in smart cities, and their reliance o
 - Proposed algorithms for autonomous vehicle modules and software.
 
 ## Proposed Work
-The proposed work includes the development of an intrusion detection system that aims to detect DDoS attacks, GPS spoofing, and malware injection. It utilizes advanced machine learning algorithms, such as Naive Bayes, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM).
+The proposed work includes the development of an intrusion detection system that aims to detect DDoS attacks. It utilizes advanced machine learning algorithms, such as Naive Bayes, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM).
 The DDoS attack detection algorithm improves the security of autonomous vehicles by identifying DDoS attacks using Wi-Fi Intrusion Detection System. It involves data preprocessing, feature selection, and the application of machine learning classifiers to detect and analyze DDoS attacks.
+Also, our continuous learning model is designed to continually update and enhance a Classifier for the purpose of efficiently handling incoming data streams, particularly in the context of DDoS attack detection. The model is initialized using various libraries, and it starts by loading an initial dataset. It then enters a continuous update loop, where new data is continuously loaded and appended to the existing dataset, ensuring that the model adapts to changing conditions.
 
 ## Contributing
 
