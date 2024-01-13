@@ -5,6 +5,8 @@
 - [Introduction](#introduction)
 - [Authors](#authors)
 - [Abstract](#abstract)
+- [Repo Structure](#repository-structure)
+- [Usage](#usage)
 - [Proposed Work](#proposed-work)
 - [Contributing](#contributing)
 - [License](#license)
@@ -27,6 +29,28 @@ Autonomous vehicles have gained prominence in smart cities, and their reliance o
 - Application of machine learning algorithms for DDoS attack detection.
 - Evaluation of the effectiveness of different algorithms.
 - Proposed algorithms for autonomous vehicle modules and software.
+
+## Repository Structure
+
+### 1. Simulation folder
+
+- Contains records to simulate DDoS attacks in the SUMO (Simulation of Urban MObility) simulator.
+
+### 2. ADADS_using_HDM_and_CLM.ipynb
+
+- Jupyter notebook containing the code for implementing Anomaly Detection for DDoS Attacks using a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM).
+- Provides graphical visualization of results and records for interpreting the outcomes.
+
+### 3. Hybrid_Models_Individual.ipynb
+
+- Jupyter notebook containing the code for individual machine learning models.
+- Includes code for five classifiers: Naive Bayes (NB), Random Forest (RF), Logistic Regression (LR), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN).
+
+## Usage
+
+1.  Navigate to the `Simulation` folder to access records for simulating DDoS attacks in the SUMO simulator.
+2.  Open the `ADADS_using_HDM_and_CLM.ipynb` notebook to view and run the code for implementing the Anomaly Detection system using a Hybrid Detection Model and Continuous Learning Model.
+3.  Explore the `Hybrid_Models_Individual.ipynb` notebook to understand the implementation of individual machine learning models.
 
 ## Proposed Work
 
