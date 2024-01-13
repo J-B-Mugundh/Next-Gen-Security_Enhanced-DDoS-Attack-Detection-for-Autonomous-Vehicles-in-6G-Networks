@@ -101,8 +101,9 @@ If you have any questions or suggestions, feel free to contact us:
 The authors thank [NGNLab](https://ngnlab.org/), Department of Computer Technology, Anna University, MIT Campus, Chennai 600044, India, for their support.
 
 ## Dataset Acknowledgment
-   - The dataset used for training and evaluation is the CIC-DDoS2019 dataset.
-     ```
+   The dataset used for training and evaluation is the CIC-DDoS2019 dataset.
+     
+     
      Iman Sharafaldin, Arash Habibi Lashkari, Saqib Hakak, and Ali A. Ghorbani, "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy", IEEE 53rd International Carnahan Conference on Security Technology, Chennai, India, 2019.
-     ```
+     
 
