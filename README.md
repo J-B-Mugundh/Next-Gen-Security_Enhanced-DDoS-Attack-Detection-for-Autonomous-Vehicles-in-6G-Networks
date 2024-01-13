@@ -31,7 +31,7 @@ Several works have focused on DDoS detection using ensemble techniques and ML/DL
 
 ![Architecture Diagram](https://github.com/J-B-Mugundh/Next-Gen-Security-Enhanced-DDoS-Attack-Detection-for-Autonomous-Vehicles-in-6G-Networks/blob/main/adads_arch_diagram.png)
 
-The ADADS system employs a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM) for effective DDoS attack detection. The HDM combines ML algorithms (NB, RF, LR, KNN, SVM), while the CLM facilitates real-time processing and adaptation to new attack patterns.
+ADADS employs a Hybrid Detection Model (HDM) featuring ML algorithms (NB, RF, LR, KNN, SVM) trained on the "CIC-DDoS2019" dataset for effective DDoS attack detection. The Continuous Learning Model (CLM) ensures real-time processing and adaptation to new attack patterns, making the system advanced and adaptable.
 
 ### Hybrid Detection Model (HDM) Training Phase
 
@@ -40,6 +40,28 @@ The HDM is trained using the AV dataset with a threshold limit. The model combin
 ### Continuous Learning Model (CLM)
 
 The CLM processes the AV dataset and evolved attack patterns in real-time, adapting to new attack patterns dynamically. The model is continuously updated to improve accuracy and adapt to emerging threats.
+
+## Repository Structure
+
+### 1. Simulation folder
+
+- Contains records to simulate DDoS attacks in the SUMO (Simulation of Urban MObility) simulator.
+
+### 2. ADADS_using_HDM_and_CLM.ipynb
+
+- Jupyter notebook containing the code for implementing Anomaly Detection for DDoS Attacks using a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM).
+- Provides graphical visualization of results and records for interpreting the outcomes.
+
+### 3. Hybrid_Models_Individual.ipynb
+
+- Jupyter notebook containing the code for individual machine learning models.
+- Includes code for five classifiers: Naive Bayes (NB), Random Forest (RF), Logistic Regression (LR), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN).
+
+## Usage
+
+1.  Navigate to the `Simulation` folder to access records for simulating DDoS attacks in the SUMO simulator.
+2.  Open the `ADADS_using_HDM_and_CLM.ipynb` notebook to view and run the code for implementing the Anomaly Detection system using a Hybrid Detection Model and Continuous Learning Model.
+3.  Explore the `Hybrid_Models_Individual.ipynb` notebook to understand the implementation of individual machine learning models.
 
 ## Results & Discussion
 
@@ -78,4 +100,9 @@ If you have any questions or suggestions, feel free to contact us:
 
 The authors thank [NGNLab](https://ngnlab.org/), Department of Computer Technology, Anna University, MIT Campus, Chennai 600044, India, for their support.
 
+## Dataset Acknowledgment
+   - The dataset used for training and evaluation is the CIC-DDoS2019 dataset.
+     ```
+     Iman Sharafaldin, Arash Habibi Lashkari, Saqib Hakak, and Ali A. Ghorbani, "Developing Realistic Distributed Denial of Service (DDoS) Attack Dataset and Taxonomy", IEEE 53rd International Carnahan Conference on Security Technology, Chennai, India, 2019.
+     ```
 
