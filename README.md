@@ -10,16 +10,17 @@
 - [License](#license)
 - [Contact](#contact)
 
-
 ## Introduction
+
 The "Advanced DDoS Attack Detection in Autonomous Vehicles" research project focuses on enhancing the cybersecurity of autonomous vehicles, particularly by detecting Distributed Denial of Service (DDoS) attacks and other cyber threats. This README provides an overview of the project's objectives, methods, and results.
 
 ## Authors
+
 - **Mugundh J B** (2021503524)
 - **Vijai Suria M** (2021503558)
-- **Kirankumar M** (2021503024)
 
 ## Abstract
+
 Autonomous vehicles have gained prominence in smart cities, and their reliance on wireless communication makes them susceptible to cyberattacks, including DDoS attacks, GPS spoofing, and malware injection. This research project introduces an intrusion detection system (IDS) powered by machine learning to safeguard autonomous vehicle networks. It involves:
 
 - Data preprocessing to prepare the dataset.
@@ -28,9 +29,11 @@ Autonomous vehicles have gained prominence in smart cities, and their reliance o
 - Proposed algorithms for autonomous vehicle modules and software.
 
 ## Proposed Work
-The proposed work includes the development of an intrusion detection system that aims to detect DDoS attacks. It utilizes advanced machine learning algorithms, such as Naive Bayes, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM).
+
+The proposed work includes the development of an intrusion detection system that aims to detect DDoS attacks. It utilizes advanced machine learning algorithms, such as _Naive Bayes, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM)_.
 The DDoS attack detection algorithm improves the security of autonomous vehicles by identifying DDoS attacks using Wi-Fi Intrusion Detection System. It involves data preprocessing, feature selection, and the application of machine learning classifiers to detect and analyze DDoS attacks.
-Also, our continuous learning model is designed to continually update and enhance a Classifier for the purpose of efficiently handling incoming data streams, particularly in the context of DDoS attack detection. The model is initialized using various libraries, and it starts by loading an initial dataset. It then enters a continuous update loop, where new data is continuously loaded and appended to the existing dataset, ensuring that the model adapts to changing conditions.
+To improve accuracy and stability, a hybrid model combines results from five ML models using a **soft voting mechanism**. Each model's weight is determined through a mathematical probability model, resulting in a robust defense against DDoS attacks.
+Also, our **continuous learning model** is designed to continually update and enhance a Classifier for the purpose of efficiently handling incoming data streams, particularly in the context of DDoS attack detection. The model is initialized using various libraries, and it starts by loading an initial dataset. It then enters a continuous update loop, where new data is continuously loaded and appended to the existing dataset, ensuring that the model adapts to changing conditions.
 
 ## Contributing
 
@@ -56,5 +59,3 @@ If you have any questions or suggestions, feel free to contact us:
 
 - Vijai Suria M: [LinkedIn](https://linkedin.com/in/vijaisuria)
 - Mugundh J B: [LinkedIn](https://linkedin.com/in/mugundhjb)
-- Kiran Kumar M: [LinkedIn](https://linkedin.com/in/kiran-kumar-81a4a1231)
-
