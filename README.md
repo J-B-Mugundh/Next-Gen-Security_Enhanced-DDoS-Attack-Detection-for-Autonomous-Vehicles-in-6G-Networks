@@ -1,63 +1,53 @@
-# Advanced DDoS Attack Detection in Autonomous Vehicles
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Authors](#authors)
-- [Abstract](#abstract)
-- [Repo Structure](#repository-structure)
-- [Usage](#usage)
-- [Proposed Work](#proposed-work)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Introduction
-
-The "Advanced DDoS Attack Detection in Autonomous Vehicles" research project focuses on enhancing the cybersecurity of autonomous vehicles, particularly by detecting Distributed Denial of Service (DDoS) attacks and other cyber threats. This README provides an overview of the project's objectives, methods, and results.
+# Next-Gen-Security-Enhanced-DDoS-Attack-Detection-for-Autonomous-Vehicles-in-6G-Networks
 
 ## Authors
 
-- **Mugundh J B** (2021503524)
-- **Vijai Suria M** (2021503558)
+- **Mugundh Jambukeswaran Bhooma, Department of Computer Technology, MIT Campus, Anna University, Chennai.**
+- **Vijai Suria Marimuthu, Department of Computer Technology, MIT Campus, Anna University, Chennai.**
 
 ## Abstract
 
-Autonomous vehicles have gained prominence in smart cities, and their reliance on wireless communication makes them susceptible to cyberattacks, including DDoS attacks, GPS spoofing, and malware injection. This research project introduces an intrusion detection system (IDS) powered by machine learning to safeguard autonomous vehicle networks. It involves:
+Autonomous Vehicles (AVs) powered by 6G technologies have transformed transportation, but their reliance on the Internet of Vehicles (IoV) makes them vulnerable to cyber threats. Distributed Denial of Service (DDoS) attacks pose a significant risk, impacting AV safety. This paper introduces the Advanced DDoS Attack Detection System (ADADS) using a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM) for dynamic adaptation to evolving attack patterns.
 
-- Data preprocessing to prepare the dataset.
-- Application of machine learning algorithms for DDoS attack detection.
-- Evaluation of the effectiveness of different algorithms.
-- Proposed algorithms for autonomous vehicle modules and software.
+## Keywords
 
-## Repository Structure
+- Autonomous Vehicles
+- 6G Communications
+- DDoS Attack Detection
+- Hybrid Detection Model
+- Continuous Learning Model
 
-### 1. Simulation folder
+## Introduction
 
-- Contains records to simulate DDoS attacks in the SUMO (Simulation of Urban MObility) simulator.
+![Attack Scenario](https://github.com/J-B-Mugundh/Next-Gen-Security-Enhanced-DDoS-Attack-Detection-for-Autonomous-Vehicles-in-6G-Networks/blob/main/attack-scenario-6g.png)
 
-### 2. ADADS_using_HDM_and_CLM.ipynb
+The advent of AVs brings enhanced safety and reduced environmental impact, relying on advanced technologies like smart driving instruments and Machine Learning (ML). However, the increasing connectivity exposes them to cyber threats, with DDoS attacks being a prominent concern. Existing DDoS detection systems face challenges in adapting to evolving attack patterns.
 
-- Jupyter notebook containing the code for implementing Anomaly Detection for DDoS Attacks using a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM).
-- Provides graphical visualization of results and records for interpreting the outcomes.
+## Related Works
 
-### 3. Hybrid_Models_Individual.ipynb
+Several works have focused on DDoS detection using ensemble techniques and ML/DL approaches. However, most frameworks lack adaptability to newly evolving attack patterns. The proposed ADADS leverages a comprehensive HDM and CLM to enhance accuracy and adaptability in 6G networks.
 
-- Jupyter notebook containing the code for individual machine learning models.
-- Includes code for five classifiers: Naive Bayes (NB), Random Forest (RF), Logistic Regression (LR), Support Vector Machines (SVM), and K-Nearest Neighbors (KNN).
+## Advanced DDoS Attack Detection System (ADADS)
 
-## Usage
+![Architecture Diagram](https://github.com/J-B-Mugundh/Next-Gen-Security-Enhanced-DDoS-Attack-Detection-for-Autonomous-Vehicles-in-6G-Networks/blob/main/adads_arch_diagram.png)
 
-1.  Navigate to the `Simulation` folder to access records for simulating DDoS attacks in the SUMO simulator.
-2.  Open the `ADADS_using_HDM_and_CLM.ipynb` notebook to view and run the code for implementing the Anomaly Detection system using a Hybrid Detection Model and Continuous Learning Model.
-3.  Explore the `Hybrid_Models_Individual.ipynb` notebook to understand the implementation of individual machine learning models.
+The ADADS system employs a Hybrid Detection Model (HDM) and Continuous Learning Model (CLM) for effective DDoS attack detection. The HDM combines ML algorithms (NB, RF, LR, KNN, SVM), while the CLM facilitates real-time processing and adaptation to new attack patterns.
 
-## Proposed Work
+### Hybrid Detection Model (HDM) Training Phase
 
-The proposed work includes the development of an intrusion detection system that aims to detect DDoS attacks. It utilizes advanced machine learning algorithms, such as _Naive Bayes, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM)_.
-The DDoS attack detection algorithm improves the security of autonomous vehicles by identifying DDoS attacks using Wi-Fi Intrusion Detection System. It involves data preprocessing, feature selection, and the application of machine learning classifiers to detect and analyze DDoS attacks.
-To improve accuracy and stability, a hybrid model combines results from five ML models using a **soft voting mechanism**. Each model's weight is determined through a mathematical probability model, resulting in a robust defense against DDoS attacks.
-Also, our **continuous learning model** is designed to continually update and enhance a Classifier for the purpose of efficiently handling incoming data streams, particularly in the context of DDoS attack detection. The model is initialized using various libraries, and it starts by loading an initial dataset. It then enters a continuous update loop, where new data is continuously loaded and appended to the existing dataset, ensuring that the model adapts to changing conditions.
+The HDM is trained using the AV dataset with a threshold limit. The model combines multiple ML algorithms to enhance the identification of various DDoS attack forms. The resulting hybrid model achieves high accuracy in attack detection.
+
+### Continuous Learning Model (CLM)
+
+The CLM processes the AV dataset and evolved attack patterns in real-time, adapting to new attack patterns dynamically. The model is continuously updated to improve accuracy and adapt to emerging threats.
+
+## Results & Discussion
+
+The proposed ADADS achieves a remarkable accuracy of 98.7% with rapid stabilization in a few iterations for the current 6G specifications and applications. The weighted soft voting scheme in the HDM emerged as the optimal choice, surpassing individual algorithms.
+
+## Conclusion & Future Works
+
+ADADS demonstrates resilience and adaptability against evolving DDoS attack patterns in 6G networks. Future works could focus on identifying other types of attack patterns and developing solutions for zero-day vulnerabilities.
 
 ## Contributing
 
@@ -83,3 +73,9 @@ If you have any questions or suggestions, feel free to contact us:
 
 - Vijai Suria M: [LinkedIn](https://linkedin.com/in/vijaisuria)
 - Mugundh J B: [LinkedIn](https://linkedin.com/in/mugundhjb)
+
+## Acknowledgement
+
+The authors thank [NGNLab](https://ngnlab.org/), Department of Computer Technology, Anna University, MIT Campus, Chennai 600044, India, for their support.
+
+
